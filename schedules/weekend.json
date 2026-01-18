@@ -1,0 +1,4 @@
+{
+  "Name": "Weekend Shutdown",
+  "Cron": "cron(0 0 ? * SAT,SUN *)"
+}

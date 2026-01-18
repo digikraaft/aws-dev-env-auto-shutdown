@@ -1,0 +1,11 @@
+name: Validate Auto Shutdown
+
+on: [push]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: opentofu/setup-opentofu@v1
+      - run: echo "Lint checks placeholder"
